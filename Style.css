@@ -1,0 +1,201 @@
+body, body{
+    font-family: 'Ropa Sans regular','pristina';
+    background: black;
+}*{
+    margin: 0px;
+}
+#main{
+    width: 100%;  
+}
+/*header,footer{
+    position: absolute;
+    width: 100%;
+    height: 45px; 
+}
+header{
+    background-color: seagreen;
+}
+footer{
+    background-color: rgb(214, 207, 214);
+    bottom: 0px;
+}
+footer h5{
+    color: black;
+    position: absolute;
+    left: 40%;
+    top: 40%;
+}*/
+
+.side-bar{
+    width: 120px;
+    height: 100%;
+    position: fixed;
+    background: rgb(46, 46, 46);
+    text-align: center;
+    
+}
+    
+.bio-image{
+    width: 130px;
+    height: 107px;
+    display: block;
+    padding: 8px 16px;
+    white-space: normal;
+    float: none;
+    outline: 0px;
+}
+.nav{
+    height: 80%;
+}
+.nav a{
+    width: 100%;
+    font-family: 'Ropa Sans regular';
+    font-style: normal;
+    font-weight: lighter;
+    display: block;
+    padding: 20px 0px;
+    text-decoration: none;
+    float: none;
+    outline: 0px;
+}
+.nav .fas:hover{
+    color: white;
+    background-color: rgb(7, 7, 7);
+    font-size: bold;
+}
+.nav> :active>.fas{
+    background-color: black;
+    color: white;
+    font-weight: bold;
+}
+.nav .fas{
+    font-size: xx-large;
+    color: white;
+}
+.nav p{
+    font-size: 15px;
+    display: block;
+    margin-inline-start: 0px;
+    text-align: center;
+    padding: 10px 5px;
+}
+.large-bio-image{
+    width: 80%;
+    height: auto;
+    background: black;
+    
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+}
+.bio-wrapper{
+    width: 90%;
+    height: auto;
+    background: black;
+    position: inherit;
+    margin-left: auto;
+    margin-top: auto;
+}
+.bio-content{
+    color: white;
+    width: 70%;
+    margin-left: 200px;
+    margin-right: auto;
+}
+.bio-content p{
+    font-size: large;
+    font-weight: lighter;
+    font-style: italic;
+    display: block;
+    font-stretch: ultra-expanded;
+}
+
+.copyright{
+    width: 30%;
+    background: black;
+    position: relative;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+}
+.copyright h3{
+    font-size: 15px;
+    color: white;
+    font-weight: normal;
+    font-family: 'Times New Roman', Times, serif;
+    display: block;
+    text-align: center;
+}
+.header-wrapper{
+    width: 40%;
+    background: black;
+    position: relative;
+    display: block;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.header-wrapper p{
+    font-family: 'pristina';
+    font-size: 70px;
+    font-weight: bolder;
+    color: white;
+    font-stretch: ultra ultra-expanded;
+    text-align: center;
+}
+.contact-wrapper{
+    width: 40%;
+    height: 20%;
+    background: black;
+    position: relative;
+    margin-top: 5px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+.contact-wrapper a, p{
+    font-size: 25px;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+}
+.contact-wrapper a:hover{
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(39, 39, 39);
+    text-decoration: none;
+    
+}
+/* #top-banner img{
+    width: 100%;
+    height: 300px;
+}
+#placements{
+    position: relative;
+    margin: auto;
+    margin-top: auto;
+    padding: 50px, 50px;
+    background-color: black;
+    width: 80%;
+    height: 50%;
+}
+.fas {
+    color: teal;
+    font-size: 100px;
+    position: relative;
+    left: 15%;
+    top: 50px;
+    transition: width 2s, height 2s, transform 2s;
+}
+a{
+    color: teal;
+    font-size: 20px;
+    position: relative;
+    left: -140px;
+    top: 40px;  
+}
+.fas:hover{
+    transform: matrix3d(180deg);
+    font-size: 150px;
+}*/
